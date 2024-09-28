@@ -77,7 +77,6 @@ public class Login extends JFrame implements ActionListener {
         button2 = new JButton("RESET");
         button2.setFont(new Font("Cambria", Font.BOLD, 15));
         button2.setBounds(650,350,100,30);
-        button2.setOpaque(true);
         button2.setForeground(new Color(51,153,255));
         button2.setBackground(new Color(255,253,208));
         button2.addActionListener(this);
